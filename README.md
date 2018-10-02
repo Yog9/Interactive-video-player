@@ -4,16 +4,16 @@
 Interactive Video Player is HTML 5 video player built from scratch using HTML5 Video API , CSS , Javascript along with some SVG for the video controls.
 
 ### Motivation
-The purpose of this project was to understand more about HTML5 Video API and Javascript interactivity.
+The purpose of this project was to get familiar with HTML5 Video API and Javascript interactivity.
 
 ### Getting Started
  Click the demo link or clone/download the repository on your local machine and open the index.html file with a browser.
  Click the transcript below the video to see how the media playback time changes or vice-versa.
  
 ### Thoughts
-At First I thought of doing this project with the help of media.js plugin which would cut down the project time to half but I 
-thought of implementing without the use of any plugin.Styling the controls at different media breakpoints was  was surprisingly very challenging.
-I commited of doing this project without a library to enhance my javascript skills.
+At first, I thought of doing this project with the help of media.js plugin which would cut down the project time to half but I 
+thought of implementing without the use of any plugin. Styling the controls at different media breakpoints was surprisingly very challenging.
+I pushed myself to do this project without a library/plugin to enhance my javascript skills.
 
 ### Built With
 * HTML5 Video API
@@ -23,7 +23,7 @@ I commited of doing this project without a library to enhance my javascript skil
 ### Features
 **1. Responsive Design**
 
-**2. Compatible on Chrome 51.0.2704.63 and Firefox 46.0.1**
+**2. Compatible on Chrome  68.0.3440.106  and Firefox 62.0 (64-bit)**
 
 **3. As the media playback time changes, sentences in the transcript gets highlighted.**
 
@@ -31,4 +31,4 @@ I commited of doing this project without a library to enhance my javascript skil
 
 ### Coming Soon 
 - [ ] Add more video controls like skip-back, skip-forward and settings to change different language captions on the video .
-- [ ] Add keyboard controls for play pause functionality.
+- [ ] Add keyboard controls for play and pause functionality on the video.
