@@ -16,8 +16,7 @@ $( document ).ready(function() {
 	var curtimetext= document.querySelector("#curtimetext");
 	var durtimetext= document.querySelector("#durtimetext");
 	var  textSec=document.querySelectorAll(".textSec");
-	//caption 
-	var captionsBtn= document.querySelector(".cc-svg");
+	
 
 //
 var videoTranscript =document.querySelector(".textHighlight");
@@ -224,24 +223,4 @@ volumeBar.addEventListener("change", function() {
   // Update the video volume
   video.volume = volumeBar.value;
 });
-
-
-
- 
-
-    //  TURN OFF CAPTIONS IN CASE BROWSER TURNS 'ON' BY DEFUALT
-    //video.textTracks[0].mode = "hidden";
-
-    captionsBtn.addEventListener('click', function () {
-    	console.log("clicked cc");
-        if (video.textTracks[0].mode === "hidden") {
-            captionsBtn.src = "images/cc-icon-on.svg";
-            captionsBtn.classList.add("cc-svg");
-            video.textTracks[0].mode = "showing";
-        } else {
-            video.textTracks[0].mode = "hidden";
-           captionsBtn.src = "images/cc-icon-off.svg";
-            captionsBtn.classList.add("cc-svg");
-        }
-    });
 });//document
