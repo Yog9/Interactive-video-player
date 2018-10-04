@@ -34,7 +34,7 @@ video
      line-height: 1.9444444444;
 
 }
-.textSec:hover
+.textSec:hover,.textSec:focus
 {
 color:orange;
 }
