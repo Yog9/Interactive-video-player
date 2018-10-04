@@ -147,7 +147,9 @@ video.addEventListener("timeupdate", function() {
   	 // Update the button to 'Play'
     playbutton.src = "images/plyr-play.svg";
     playbutton.classList.add("play-svg");
+
     centerplayButton.style.display="block";
+
   }
   //time in span tag
   var curmins=Math.floor(video.currentTime/60);
@@ -171,6 +173,7 @@ for(let i=0;i<textSec.length;i++)
 	var starttime=textSec[i].getAttribute('data-start');
 	var endtime =textSec[i].getAttribute('data-end');
 	if(video.currentTime>starttime && video.currentTime<endtime)
+
 		{
       textSec[i].style.backgroundColor ="orange";
 		  textSec[i].style.color="white";
@@ -179,7 +182,10 @@ for(let i=0;i<textSec.length;i++)
     {
         textSec[i].style.color="black";
         textSec[i].style.backgroundColor ="white";
-    }
+   }
+
+
+
 }
 });
 //When clicking on any sentence in the transcript, the video player jumps to the appropriate time in the video.
@@ -188,7 +194,6 @@ videoTranscript.addEventListener('click', (e) => {
    let jumpToTime = target.getAttribute('data-start');
    if (target) {
      video.currentTime = jumpToTime;
-
      video.play();
       centerplayButton.style.display="none";
      // Update the button to 'Pause'
