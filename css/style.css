@@ -107,7 +107,7 @@ video
 	/*margin:0 8px 0 8px;*/
 }
 
-.play-svg,.muted-svg,.cc-svg,.vol-svg,.pause-svg,.svg-screen
+.play-svg,.muted-svg,.vol-svg,.pause-svg,.svg-screen
 {
 	margin:0 4px 0 6px;
 	fill:white;
@@ -116,7 +116,7 @@ video
 
 }
 
-.play-svg,.muted-svg,.cc-svg,.vol-svg,.pause-svg
+.play-svg,.muted-svg,.vol-svg,.pause-svg
 {
 	margin:0 4px 0 4px;
 	fill:white;
@@ -261,7 +261,7 @@ input[type=range]:focus::-webkit-ms-fill-upper {
 	width:10%;
 	/*margin:0 8px 0 8px;*/
 }
-.play-svg,.muted-svg,.cc-svg,.vol-svg,.pause-svg,.svg-screen
+.play-svg,.muted-svg,.vol-svg,.pause-svg,.svg-screen
 {
 	margin:0 4px 0  4px;
 	fill:white;
