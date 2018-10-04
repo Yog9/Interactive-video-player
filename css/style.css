@@ -27,16 +27,16 @@ video
   font-size: 20px;
 }
 
-.textSec:hover
-{
-	color:orange;
-	
-}
+
 .textHighlight
 {
  font-family: 'Roboto', sans-serif;
      line-height: 1.9444444444;
 
+}
+.textHighlight:hover
+{
+color:orange;
 }
 #media-controls {
   background-color: rgba(1, 56, 56, 0.3);
